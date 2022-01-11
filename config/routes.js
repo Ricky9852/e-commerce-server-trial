@@ -13,7 +13,7 @@ router.post('/api/users/login', usersController.login)
 router.get('/api/users', usersController.list)
 router.get('/api/users/:id', usersController.account)
 router.put('/api/users/:id', usersController.update)
-router.delete('/api/users/:id', studentsController.destroy)
+router.delete('/api/users/:id', usersController.destroy)
 
 router.post('/api/suppliers/login', supplierController.login)
 router.get('/api/suppliers',  supplierController.list)
