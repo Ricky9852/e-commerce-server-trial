@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const Cart = require('./cart')
 const Schema = mongoose.Schema
 const orderSchema = new Schema({
     cartID: { 
